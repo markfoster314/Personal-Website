@@ -1,15 +1,15 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "./index.css";
 import "./css/animate.css";
 import "./css/bootstrap.min.css";
 import "./css/main.css";
 import "./css/magnific-popup.css";
 import "./css/responsive.css";
-import App from './app/App';
-import reportWebVitals from './reportWebVitals';
+import App from "./app/App";
+import reportWebVitals from "./reportWebVitals";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <App />
