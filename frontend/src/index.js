@@ -6,6 +6,7 @@ import "./css/bootstrap.min.css";
 import "./css/main.css";
 import "./css/magnific-popup.css";
 import "./css/responsive.css";
+import "./fonts/FontAwesome/font-awesome.min.css"
 import App from "./app/App";
 import reportWebVitals from "./reportWebVitals";
 
