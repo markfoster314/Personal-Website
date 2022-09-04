@@ -13,7 +13,7 @@ function Navbar() {
     }
     const onScroll = () => {
       if (window.pageYOffset > 735) {
-        setNavbarClass("navbar navbar-fixed-top");
+        setNavbarClass("navbar-fixed-top animated fadeInDown");
       } else {
         setNavbarClass("navbar");
       }
