@@ -313,10 +313,6 @@ button:focus,
   padding-bottom: 40px;
 }
 
-#navigation.menu-two .navbar-nav > li:last-child a:hover,
-#navigation.menu-two .navbar-nav > li:last-child.current a {
-}
-
 #navigation.menu-two .navbar-nav > li:last-child {
   background-color: #3c70b4;
 }
@@ -452,7 +448,6 @@ ul.sub-menu {
 }
 
 .home-banner-one .banner-content {
-  background-image: url(../images/bg/banner.jpg);
   background-color: #e7e7e7;
   position: relative;
   background-position: center;
@@ -460,7 +455,7 @@ ul.sub-menu {
 }
 
 .home-two #home-banner {
-  background-image: url(./headshot.png);
+  background-image: url(../../images/headshot.png);
   background-repeat: no-repeat;
   background-position: right;
   background-size: contain;
@@ -729,9 +724,6 @@ ul.sub-menu {
   line-height: 24px;
   color: #2d3038;
   margin-bottom: 50px;
-}
-
-.text-info h4 {
 }
 
 /* Exprience Section */
@@ -1457,9 +1449,6 @@ h3.widget_title {
   border-bottom: 1px solid #f0f0f0;
 }
 
-.widget ul {
-}
-
 .widget ul li {
   padding: 7px 0;
   margin: 7px 0;
@@ -1602,8 +1591,8 @@ a,
 
 @font-face {
   font-family: "rookies-showtimesregular";
-  src: url("../rookies_showtimes-webfont.woff2") format("woff2"),
-    url("../rookies_showtimes-webfont.woff") format("woff");
+  src: url("./rookies_showtimes-webfont.woff2") format("woff2"),
+    url("./rookies_showtimes-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
