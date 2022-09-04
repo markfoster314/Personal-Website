@@ -1,5 +1,8 @@
 import "./App.css";
 
+import Header from "./Header/Header";
+import Navbar from "./Navbar/Navbar"
+
 import amazonRobotics from "../images/ar.png";
 import badBeat from "../images/badbeat.png";
 import bsa from "../images/bsa.png";
@@ -21,111 +24,8 @@ function App() {
   return (
     <div>
       <div>
-        <div className="main-wrapper home-two">
-          <div id="home-banner" style={{ backgroundColor: "#2d3038" }}>
-            <div className="container">
-              <div className="row">
-                <div className="col-sm-9">
-                  <div className="banner-content">
-                    <div className="home-social">
-                      <ul className="list-inline">
-                        <li>
-                          <a
-                            style={{ fontSize: "24px", color: "white" }}
-                            href="https://www.facebook.com/profile.php?id=100085356490340"
-                          >
-                            <i
-                              className="fa fa-facebook"
-                              aria-hidden="true"
-                            ></i>
-                          </a>
-                        </li>
-                        <li>
-                          <a
-                            style={{ fontSize: "24px", color: "white" }}
-                            href="https://github.com/markfoster314"
-                          >
-                            <i className="fa fa-github" aria-hidden="true"></i>
-                          </a>
-                        </li>
-                        <li>
-                          <a
-                            style={{ fontSize: "24px", color: "white" }}
-                            href="https://www.linkedin.com/in/markfoster314/"
-                          >
-                            <i
-                              className="fa fa-linkedin"
-                              aria-hidden="true"
-                            ></i>
-                          </a>
-                        </li>
-                      </ul>
-                    </div>
-                    <div className="banner-info">
-                      <h1 style={{ color: "white" }}>my name is</h1>
-                      <h2 style={{ color: "white" }}>Mark Foster</h2>
-                      <h3 style={{ color: "white" }}>
-                        explorer. thinker. creator.
-                      </h3>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div className="container">
-          <div id="navigation" className="menu-two">
-            <div className="navbar">
-              <div className="navbar-header">
-                <button
-                  type="button"
-                  className="navbar-toggle collapsed"
-                  data-toggle="collapse"
-                  data-target=".navbar-collapse"
-                >
-                  <span className="sr-only">Toggle navigation</span>
-                  <span className="icon-bar"></span>
-                  <span className="icon-bar"></span>
-                  <span className="icon-bar"></span>
-                </button>
-                <div className="navbar-brand logo">
-                  <a href="index.html">
-                    <h3 className="topName">Mark L. Foster</h3>
-                  </a>
-                </div>
-              </div>
-              <div className="collapse navbar-collapse">
-                <nav id="mainmenu">
-                  <ul className="nav navbar-nav">
-                    <li className=" scroll current">
-                      <a href="#home-banner">Home</a>
-                    </li>
-                    <li className="scroll">
-                      <a href="#about">About Me</a>
-                    </li>
-                    <li className="scroll">
-                      <a href="#skill">Skills</a>
-                    </li>
-                    <li className="scroll">
-                      <a href="#exprience">Experience</a>
-                    </li>
-                    <li className="scroll">
-                      <a href="#education">Education</a>
-                    </li>
-                    <li className="scroll">
-                      <a href="#volunteer">Volunteer</a>
-                    </li>
-                    <li className="scroll">
-                      <a href="#interests">Interests</a>
-                    </li>
-                  </ul>
-                </nav>
-              </div>
-            </div>
-          </div>
-        </div>
+        <Header />
+        <Navbar />
 
         <div id="about" className="about-section section-padding">
           <div className="container">
@@ -652,7 +552,7 @@ function App() {
                     <table>
                       <tbody>
                         <tr>
-                          <td valign="bottom">
+                          <td style={{ verticalAlign: "bottom" }}>
                             <img
                               className="img-responsive school"
                               src={explore}
@@ -666,7 +566,7 @@ function App() {
                               alt="Rock Climbing"
                             />
                           </td>
-                          <td valign="bottom">
+                          <td style={{ verticalAlign: "bottom" }}>
                             <img
                               className="img-responsive school"
                               src={hiking}
@@ -680,7 +580,7 @@ function App() {
                               alt="Hiking"
                             />
                           </td>
-                          <td valign="bottom">
+                          <td style={{ verticalAlign: "bottom" }}>
                             <img
                               className="img-responsive school"
                               src={snowboard}
@@ -759,7 +659,7 @@ function App() {
                     <table>
                       <tbody>
                         <tr>
-                          <td valign="bottom">
+                          <td style={{ verticalAlign: "bottom" }}>
                             <img
                               className="img-responsive school"
                               src={poker}
@@ -773,7 +673,7 @@ function App() {
                               alt="Poker"
                             />
                           </td>
-                          <td valign="bottom">
+                          <td style={{ verticalAlign: "bottom" }}>
                             <img
                               className="img-responsive school"
                               src={badBeat}
