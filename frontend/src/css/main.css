@@ -455,7 +455,7 @@ ul.sub-menu {
 }
 
 .home-two #home-banner {
-  background-image: url(../../images/headshot.png);
+  background-image: url(../images/headshot.png);
   background-repeat: no-repeat;
   background-position: right;
   background-size: contain;
@@ -1591,8 +1591,10 @@ a,
 
 @font-face {
   font-family: "rookies-showtimesregular";
-  src: url("./rookies_showtimes-webfont.woff2") format("woff2"),
-    url("./rookies_showtimes-webfont.woff") format("woff");
+  src: url("../fonts/RookiesShowtimes/rookies_showtimes-webfont.woff2")
+      format("woff2"),
+    url("../fonts/RookiesShowtimes/rookies_showtimes-webfont.woff")
+      format("woff");
   font-weight: normal;
   font-style: normal;
 }

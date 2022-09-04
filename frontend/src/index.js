@@ -3,11 +3,11 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import "./css/animate.css"
 import "./css/bootstrap.min.css"
-import "./fonts/fontAwesome/font-awesome.min.css"
+import "./fonts/FontAwesome/font-awesome.min.css"
 import "./css/main.css"
 import "./css/magnific-popup.css"
 import "./css/responsive.css"
-import App from './App';
+import App from './app/App';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
