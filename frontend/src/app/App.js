@@ -18,6 +18,31 @@ import poker from "../images/poker.png";
 import sae from "../images/sae.png";
 import snowboard from "../images/snowboard.png";
 
+// function helloGuys () {
+//   $(".progress-content").bind(
+//     "inview",
+//     function (event, visible, visiblePartX, visiblePartY) {
+//       if (visible) {
+//         $.each($("div.progress-bar"), function () {
+//           $(this).css("width", $(this).attr("aria-valuenow") + "%");
+//         });
+//         $(this).unbind("inview");
+//       }
+//     }
+//   );
+//   $(".rating-bar").bind(
+//     "inview",
+//     function (event, visible, visiblePartX, visiblePartY) {
+//       if (visible) {
+//         $.each($("div.progress-bar"), function () {
+//           $(this).css("width", $(this).attr("aria-valuenow") + "%");
+//         });
+//         $(this).unbind("inview");
+//       }
+//     }
+//   );
+// })();
+
 function App() {
   return (
     <div>
@@ -43,7 +68,7 @@ function App() {
                         <li>
                           <a
                             style={{ fontSize: "24px", color: "white" }}
-                            href="https://www.facebook.com/markfoster314"
+                            href="https://www.facebook.com/profile.php?id=100085356490340"
                           >
                             <i
                               className="fa fa-facebook"
@@ -876,7 +901,11 @@ function App() {
             <div className="footer">
               <p>
                 {" "}
-                &copy; 2020 <a href="#">Mark Foster.</a> All Rights Reserved
+                &copy; 2020{" "}
+                <a href="https://www.linkedin.com/in/markfoster314/">
+                  Mark Foster.
+                </a>{" "}
+                All Rights Reserved
               </p>
             </div>
           </div>

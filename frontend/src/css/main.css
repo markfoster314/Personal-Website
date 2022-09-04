@@ -483,17 +483,17 @@ ul.sub-menu {
 
 @import url("https://fonts.googleapis.com/css?family=Inconsolata");
 
-.home-two .banner-info h1 {
+.banner-info h1 {
   font-size: 50px;
   margin-bottom: 0;
   font-family: "Inconsolata", monospace;
 }
 
-.home-two .banner-info h3 {
+.banner-info h3 {
   font-family: "Times New Roman", Times, serif;
 }
 
-.home-two .topName {
+.topName {
   font-family: "Sacramento", cursive;
   color: white;
 }
