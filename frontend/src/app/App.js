@@ -1,5 +1,4 @@
 import "./App.css";
-import { Helmet } from "react-helmet";
 
 import amazonRobotics from "../images/ar.png";
 import badBeat from "../images/badbeat.png";
@@ -18,44 +17,9 @@ import poker from "../images/poker.png";
 import sae from "../images/sae.png";
 import snowboard from "../images/snowboard.png";
 
-// function helloGuys () {
-//   $(".progress-content").bind(
-//     "inview",
-//     function (event, visible, visiblePartX, visiblePartY) {
-//       if (visible) {
-//         $.each($("div.progress-bar"), function () {
-//           $(this).css("width", $(this).attr("aria-valuenow") + "%");
-//         });
-//         $(this).unbind("inview");
-//       }
-//     }
-//   );
-//   $(".rating-bar").bind(
-//     "inview",
-//     function (event, visible, visiblePartX, visiblePartY) {
-//       if (visible) {
-//         $.each($("div.progress-bar"), function () {
-//           $(this).css("width", $(this).attr("aria-valuenow") + "%");
-//         });
-//         $(this).unbind("inview");
-//       }
-//     }
-//   );
-// })();
-
 function App() {
   return (
     <div>
-      <Helmet>
-        <script src="../javascript/bootstrap.min.js"></script>
-        <script src="../javascript/counterup.min.js"></script>
-        <script src="../javascript/easypiechart.js"></script>
-        <script src="../javascript/inview.min.js"></script>
-        <script src="../javascript/jquery.min.js"></script>
-        <script src="../javascript/magnific-popup.min.js"></script>
-        <script src="../javascript/main.js"></script>
-        <script src="../javascript/waypoints.min.js"></script>
-      </Helmet>
       <div>
         <div className="main-wrapper home-two">
           <div id="home-banner" style={{ backgroundColor: "#2d3038" }}>

@@ -1,12 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import "./css/animate.css"
-import "./css/bootstrap.min.css"
-import "./fonts/FontAwesome/font-awesome.min.css"
-import "./css/main.css"
-import "./css/magnific-popup.css"
-import "./css/responsive.css"
+import "./css/animate.css";
+import "./css/bootstrap.min.css";
+import "./css/main.css";
+import "./css/magnific-popup.css";
+import "./css/responsive.css";
 import App from './app/App';
 import reportWebVitals from './reportWebVitals';
 
